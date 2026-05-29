@@ -25,8 +25,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-dark-900/50 via-transparent to-dark-900 z-[1]" />
 
       {/* Decorative gradient orbs */}
-      <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary/20 rounded-full blur-[128px] z-0" />
-      <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-accent/15 rounded-full blur-[128px] z-0" />
+      <div className="absolute top-1/4 -left-32 w-[30rem] h-[30rem] bg-primary/30 rounded-full blur-[160px] z-0 animate-[float_6s_ease-in-out_infinite]" />
+      <div className="absolute bottom-1/4 -right-32 w-[30rem] h-[30rem] bg-accent/20 rounded-full blur-[160px] z-0 animate-[float_8s_ease-in-out_infinite_reverse]" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
         {/* Left: Text Content */}
@@ -45,9 +45,9 @@ export default function Hero() {
             Welcome to my portfolio
           </motion.p>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-[family-name:var(--font-display)] leading-tight mb-6">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold font-[family-name:var(--font-display)] tracking-tight leading-tight mb-6 drop-shadow-2xl">
             Hi, I&apos;m{' '}
-            <span className="gradient-text">
+            <span className="gradient-text drop-shadow-[0_0_25px_rgba(236,72,153,0.3)]">
               Harikesh
             </span>
           </h1>
@@ -55,13 +55,13 @@ export default function Hero() {
           <div className="text-xl md:text-2xl text-slate-400 mb-8 h-8">
             <TypeAnimation
               sequence={[
-                'CSE Student @ NIT Surat',
+                'B.Tech CSE @ SVNIT Surat',
                 2000,
-                'Class of 2028',
+                'Full-Stack Developer',
                 2000,
-                'Python & Web Developer',
+                'Competitive Programmer',
                 2000,
-                'Interactive 3D Experiences',
+                'AI Solutions Explorer',
                 2000,
               ]}
               wrapper="span"
@@ -77,7 +77,7 @@ export default function Hero() {
             transition={{ delay: 0.8 }}
             className="text-slate-400 text-base md:text-lg max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed"
           >
-            I am a computer science engineering student specializing in Python, networking algorithms, and interactive web experiences. From simulating environments to writing clean logic, I love turning complex problems into functional code.
+            I'm Harikesh, a Computer Science student at SVNIT Surat passionate about building impactful software solutions. I enjoy solving algorithmic problems, developing full-stack applications, and exploring AI-powered systems. My goal is to create products that solve real-world problems while continuously improving my problem-solving and engineering skills.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -141,7 +141,7 @@ export default function Hero() {
         >
           <div className="relative">
             {/* Glowing ring */}
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary to-accent blur-2xl opacity-30 scale-110" />
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-purple-500 to-accent blur-3xl opacity-50 scale-110 animate-[pulse-glow_4s_infinite]" />
 
             {/* Image Container */}
             <div className="relative gradient-border rounded-full overflow-hidden w-64 h-64 md:w-80 md:h-80 flex items-center justify-center">
